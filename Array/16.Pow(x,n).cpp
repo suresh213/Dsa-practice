@@ -21,3 +21,5 @@ double myPow(double x, int n) {
     if(n<0) ans = (double)1.0/(double)ans;
     return ans;
 }
+
+
