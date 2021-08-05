@@ -1,3 +1,22 @@
+Types of problems can be asked in pascal triangle
+
+1) Print a number in certain row and column 
+ex: 5th row 3rd column
+
+//Time complexity :o(n) -> For calculating NCr
+//space complexity:o(1)
+formula: NCr -> (5-1)C(3-1)
+
+
+
+2) Print 5th row
+//Time complexity :o(n2)
+//space complexity:o(n)
+for every column find number using NCr formula
+
+
+
+3) Print rows upto n
 //Time complexity :o(n)
 //space complexity:o(n)
 
